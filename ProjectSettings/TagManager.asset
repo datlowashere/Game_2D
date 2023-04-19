@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Obstracle
+  - Reward
+  - Left
+  - Up
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3125422353
+    locked: 0
+  - name: Ground
+    uniqueID: 3152508521
+    locked: 0
+  - name: Reward
+    uniqueID: 1882733941
+    locked: 0
+  - name: ClouldAndObstracle
+    uniqueID: 761050833
+    locked: 0
+  - name: Player
+    uniqueID: 1442718991
+    locked: 0

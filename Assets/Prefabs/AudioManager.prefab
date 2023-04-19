@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8824925310965265182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8824925310965265183}
+  - component: {fileID: 8824925310965265168}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8824925310965265183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824925310965265182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 58.0083, y: 19.645771, z: 1.0170431}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8824925310965265168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824925310965265182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd87b7ece4b79ee49bf55bb563853dbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2054341487357678997, guid: 59318a09a1129594dbc3e3aa624aa4e8, type: 3}
+  coin: {fileID: 8300000, guid: 61a606cdfc71b9445987c78dcf96f113, type: 3}
+  coinsource: {fileID: 0}
+  goomba: {fileID: 8300000, guid: c8f4ca28f9cc36845b684603021a98f3, type: 3}
+  goombasource: {fileID: 0}
+  breakBlock: {fileID: 8300000, guid: 835668e6e47abf04990daf8fad540680, type: 3}
+  breakBlocksource: {fileID: 0}
+  pipe: {fileID: 8300000, guid: 30dd302ce17403b4da65c3f0d90f74a3, type: 3}
+  pipesource: {fileID: 0}
+  jump: {fileID: 8300000, guid: 7a24c7b418416a646b58c3c857498a8c, type: 3}
+  jumpsource: {fileID: 0}
+  mega: {fileID: 8300000, guid: fa57403d30d9323419ee23bfe9d873f8, type: 3}
+  megasource: {fileID: 0}
+  death: {fileID: 8300000, guid: 08cc66f77be8e604d9a8e719588b7ee2, type: 3}
+  deathsource: {fileID: 0}
+  flag: {fileID: 8300000, guid: 45a1a74ef6f9022449fde56e3b333f25, type: 3}
+  flagsource: {fileID: 0}
+  win: {fileID: 8300000, guid: c677c584f7226fe47b37331348e8a808, type: 3}
+  winsource: {fileID: 0}
+  beep: {fileID: 8300000, guid: 67b8877e5c0f1044b95356b2d583bf18, type: 3}
+  beepsource: {fileID: 0}
+  bump: {fileID: 8300000, guid: 2df3661ca9c862c40a38cb3487a0e54a, type: 3}
+  bumpsource: {fileID: 0}
+  theme: {fileID: 8300000, guid: 06ab2808ba2390f46996d0e511416720, type: 3}
+  themesource: {fileID: 0}
